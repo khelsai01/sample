@@ -15,11 +15,11 @@ fetch("https://fuzzy-bull-pajamas.cyclic.app/notes/",{
 .catch(err=>console.log(err))
     },[])
     //console.log(data)
-    if(data.length===0){
-        return(
-            <h1>No Any Note is created Yet!!</h1>
-        )
-    }
+    // if(data.length===0){
+    //     return(
+    //         <h1>No Any Note is created Yet!!</h1>
+    //     )
+    // }
   return (
     <div><h3>Notes</h3>
     
