@@ -1,9 +1,12 @@
 import React from 'react'
+import Createnote from './Createnote'
 
 const Home = () => {
   return (
     <div>
-        <h3>Note Taking App</h3>
+        <h3>
+          <Createnote />
+        </h3>
     </div>
   )
 }
